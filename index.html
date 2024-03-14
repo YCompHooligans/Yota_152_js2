@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>>Kalkulator</title>
+    <link rel="Stylesheet" href="style.css">
+</head><body>
+    <div class="calculator-container">
+        <input type="text" class="calculator-screen" id="display" disabled>
+        <div class="calculator-buttons">
+            <button onclick="appendNumber('+')">+</button>
+            <button onclick="appendNumber(1)">1</button>
+            <button onclick="appendNumber(2)">2</button>
+            <button onclick="appendNumber(3)">3</button>
+            <button onclick="appendNumber('-')">-</button>
+            <button onclick="appendNumber(4)">4</button>
+            <button onclick="appendNumber(5)">5</button>
+            <button onclick="appendNumber(6)">6</button>
+            <button onclick="appendNumber('*')">*</button>
+            <button onclick="appendNumber(7)">7</button>
+            <button onclick="appendNumber(8)">8</button>
+            <button onclick="appendNumber(9)">9</button>
+            <button onclick="appendNumber('/')">/</button>
+            <button onclick="appendNumber(0)">0</button>
+            <button onclick="clearDisplay()" style="background-color: red; color: white;">C</button>
+            <button onclick="perhitungan()" style="background-color: orange; color: white;">=</button>
+            
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
